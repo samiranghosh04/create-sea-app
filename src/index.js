@@ -31,9 +31,11 @@ const generatePackageJson = async (projectName) => {
     keywords: [],
     author: '',
     license: 'ISC',
-    description: '',
+    description: 'Sea JS starter app',
     dependencies: {
       'sea-js-ui-core': `^${seaJsUiCoreVersion}`,
+    },
+    "devDependencies": {
       'vite': `^${viteVersion}`,
     },
   };
